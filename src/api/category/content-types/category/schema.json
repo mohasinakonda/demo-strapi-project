@@ -30,6 +30,12 @@
         }
       },
       "type": "string"
+    },
+    "articales": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::articale.articale",
+      "mappedBy": "categories"
     }
   }
 }
